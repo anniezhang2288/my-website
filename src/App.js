@@ -1,27 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import ResumeList from './resume.js';
+import Profile from './profile.js';
 
 function App() {
+  // Your App component code, which uses Profile and ShoppingList
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          meow :D
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Profile />
+      <ResumeList />
     </div>
   );
 }
-
-
 
 export default App;
